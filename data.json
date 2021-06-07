@@ -1,0 +1,216 @@
+[
+  {
+    "msgInfo": [
+      {
+        "type": "text",
+        "content": "文字1 ABC\n文字1 ABC",
+        "botSender": {
+          "botSenderId": "1",
+          "botSenderName": "預設",
+          "botSenderIconUrl": "/assets/images/avatar/ogilvy.png"
+        }
+      },
+      {
+        "type": "image",
+        "content": "https://ssscpre.samsung.cecmartech.com/msgPushImg/2021-06-03/1622725758.png",
+        "botSender": {
+          "botSenderId": "1",
+          "botSenderName": "預設",
+          "botSenderIconUrl": "/assets/images/avatar/ogilvy.png"
+        }
+      },
+      {
+        "type": "video",
+        "content": {
+          "videoimg": "https://ssscpre.samsung.cecmartech.com/msgPushImg/2021-06-03/1622725872.png",
+          "video": "https://ssscpre.samsung.cecmartech.com/msgPushVideo/2021-06-03/1622725863.mp4"
+        },
+        "botSender": {
+          "botSenderId": "1",
+          "botSenderName": "預設",
+          "botSenderIconUrl": "/assets/images/avatar/ogilvy.png"
+        }
+      },
+      {
+        "type": "imagemap",
+        "content": {
+          "modelType": "mcustom",
+          "title": "aaa",
+          "imgUrl": "https://ssscpre.samsung.cecmartech.com/msgPushImg/2021-06-03/1622725886.png",
+          "imgSize": {
+            "width": 1040,
+            "height": 1040
+          },
+          "actions": [
+            {
+              "type": "message",
+              "content": "111",
+              "area": {
+                "x": 0,
+                "y": 0,
+                "width": 1040,
+                "height": 529
+              }
+            },
+            {
+              "type": "message",
+              "content": "222",
+              "area": {
+                "x": 0,
+                "y": 528,
+                "width": 1040,
+                "height": 511
+              }
+            }
+          ]
+        },
+        "botSender": {
+          "botSenderId": "1",
+          "botSenderName": "預設",
+          "botSenderIconUrl": "/assets/images/avatar/ogilvy.png"
+        }
+      },
+      {
+        "type": "carousel",
+        "content": {
+          "imgAspectRatio": "square",
+          "previewMsg": "bbb",
+          "slides": [
+            {
+              "imgUrl": "https://ssscpre.samsung.cecmartech.com/msgPushImg/2021-06-03/1622725971.png",
+              "title": "c1",
+              "desc": "c11",
+              "buttons": [
+                {
+                  "title": "c111",
+                  "action": "postback",
+                  "content": "c1111"
+                }
+              ]
+            },
+            {
+              "imgUrl": "https://ssscpre.samsung.cecmartech.com/msgPushImg/2021-06-03/1622726063.png",
+              "title": "c2",
+              "desc": "c22",
+              "buttons": [
+                {
+                  "title": "c222",
+                  "action": "postback",
+                  "content": "c2222"
+                }
+              ]
+            },
+            {
+              "imgUrl": "https://ssscpre.samsung.cecmartech.com/msgPushImg/2021-06-03/1622726103.png",
+              "title": "c3",
+              "desc": "c33",
+              "buttons": [
+                {
+                  "title": "c333",
+                  "action": "postback",
+                  "content": "c3333"
+                }
+              ]
+            }
+          ]
+        },
+        "botSender": {
+          "botSenderId": "1",
+          "botSenderName": "預設",
+          "botSenderIconUrl": "/assets/images/avatar/ogilvy.png"
+        }
+      }
+    ],
+    "timestamp": "2021-06-03 21:17:18",
+    "role": 2
+  },
+  {
+    "msgInfo": [
+      {
+        "type": "text",
+        "content": "我想要看更多",
+        "botSender": {
+          "botSenderId": "0",
+          "botSenderName": "用戶",
+          "botSenderIconUrl": "/assets/images/avatar/user.jpeg"
+        }
+      }
+    ],
+    "timestamp": "2021-06-03 21:22:30",
+    "role": 1
+  },
+  {
+    "msgInfo": [
+      {
+        "type": "text",
+        "content": "文字2 ABC\n文字2 ABC",
+        "botSender": {
+          "botSenderId": "1",
+          "botSenderName": "預設",
+          "botSenderIconUrl": "/assets/images/avatar/ogilvy.png"
+        }
+      },
+      {
+        "type": "image",
+        "content": "https://ssscpre.samsung.cecmartech.com/msgPushImg/2021-06-03/1622725758.png",
+        "botSender": {
+          "botSenderId": "1",
+          "botSenderName": "預設",
+          "botSenderIconUrl": "/assets/images/avatar/ogilvy.png"
+        }
+      },
+      {
+        "type": "carousel",
+        "content": {
+          "imgAspectRatio": "square",
+          "previewMsg": "bbb",
+          "slides": [
+            {
+              "imgUrl": "https://ssscpre.samsung.cecmartech.com/msgPushImg/2021-06-03/1622725971.png",
+              "title": "c1",
+              "desc": "c11",
+              "buttons": [
+                {
+                  "title": "c111",
+                  "action": "postback",
+                  "content": "c1111"
+                }
+              ]
+            },
+            {
+              "imgUrl": "https://ssscpre.samsung.cecmartech.com/msgPushImg/2021-06-03/1622726063.png",
+              "title": "c2",
+              "desc": "c22",
+              "buttons": [
+                {
+                  "title": "c222",
+                  "action": "postback",
+                  "content": "c2222"
+                }
+              ]
+            },
+            {
+              "imgUrl": "https://ssscpre.samsung.cecmartech.com/msgPushImg/2021-06-03/1622726103.png",
+              "title": "c3",
+              "desc": "c33",
+              "buttons": [
+                {
+                  "title": "c333",
+                  "action": "postback",
+                  "content": "c3333"
+                }
+              ]
+            }
+          ]
+        },
+        "botSender": {
+          "botSenderId": "1",
+          "botSenderName": "預設",
+          "botSenderIconUrl": "/assets/images/avatar/ogilvy.png"
+        }
+      }
+    ],
+    "timestamp": "2021-06-04 08:20:18",
+    "role": 2
+  }
+]
