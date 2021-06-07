@@ -5,7 +5,7 @@ const lineReviwe = function () {
     wrap.insertAdjacentHTML('beforeend',
       `
       <div class="messageGroup__group ${_role === 1 && "messageGroup__user"}">
-        <div class="messageGroup__avatar" style="background-image: url(.${_data.botSender.botSenderIconUrl}"></div>
+        <div class="messageGroup__avatar" style="background-image: url(${_data.botSender.botSenderIconUrl}"></div>
         <div class="messageGroup__content">
           <div class="type__text">
             <p>${_data.content}</p>
@@ -23,7 +23,7 @@ const lineReviwe = function () {
     wrap.insertAdjacentHTML('beforeend',
       `
       <div class="messageGroup__group ${_role === 1 && "messageGroup__user"}">
-        <div class="messageGroup__avatar" style="background-image: url(.${_data.botSender.botSenderIconUrl}"></div>
+        <div class="messageGroup__avatar" style="background-image: url(${_data.botSender.botSenderIconUrl}"></div>
         <div class="messageGroup__content">
           <div class="type__video">
             <img src="${_data.content.videoimg}" alt="">
@@ -41,7 +41,7 @@ const lineReviwe = function () {
     wrap.insertAdjacentHTML('beforeend',
       `
       <div class="messageGroup__group messageGroup__group--full ${_role === 1 && "messageGroup__user"}">
-        <div class="messageGroup__avatar" style="background-image: url(.${_data.botSender.botSenderIconUrl}"></div>
+        <div class="messageGroup__avatar" style="background-image: url(${_data.botSender.botSenderIconUrl}"></div>
         <div class="messageGroup__content messageGroup__content--full">
           <div class="type__imagemap">
             <img src="${_data.content.imgUrl}" alt="">
@@ -77,7 +77,7 @@ const lineReviwe = function () {
     wrap.insertAdjacentHTML('beforeend',
       `
       <div class="messageGroup__group messageGroup__group--full ${_role === 1 && "messageGroup__user"}">
-        <div class="messageGroup__avatar" style="background-image: url(.${_data.botSender.botSenderIconUrl}"></div>
+        <div class="messageGroup__avatar" style="background-image: url(${_data.botSender.botSenderIconUrl}"></div>
         <div class="messageGroup__content messageGroup__content--full">
         <div class="type__carousel t-${_index}">
           ${_data.content.slides.map((item) => `
