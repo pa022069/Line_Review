@@ -1,21 +1,22 @@
 .phone {
   position: relative;
-  width: 400px;
-    height: 845px;
+  width: 278px;
+    height: 574px;
   background-position: center top;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(../assets/images/mobile.beb27f59.png);
-  padding-top: 65px;
+  padding-top: 46px;
 
   &__wrap {
     position: relative;
     width: 400px;
     height: 692px;
-    background-color: #333;
+    margin-left: 6px;
+    background-color: #fff;
     overflow-y: auto;
-    transform: scale(0.96);
-    transform-origin: center top;
+    transform: scale(0.665);
+    transform-origin: left top;
     border-radius: 4px;
 
     &::-webkit-scrollbar {
@@ -135,7 +136,7 @@
       &__text {
         position: relative;
         width: 100%;
-        background-color: #fff;
+        background-color: #f2f2f2;
         padding: 10px;
 
         .title {
@@ -160,7 +161,7 @@
           position: relative;
           width: 100%;
           padding: 10px;
-          background-color: #fff;
+          background-color: #f2f2f2;
           color: #333;
           display: block;
           box-sizing: border-box;
@@ -178,8 +179,8 @@
 
   &__text {
     background-color: #ececec;
-    padding: 3px 10px;
-    border-radius: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
 
     p {
       margin: 0;
